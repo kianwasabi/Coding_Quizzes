@@ -1,6 +1,6 @@
 # CodingQuizzes
 
-Repository for weekly(?) conding quizzes.
+Repository for coding quizzes.
 A code snipple a day keeps the bordome away. :)
 
 |2022/12/17|
