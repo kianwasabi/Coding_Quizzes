@@ -1,3 +1,13 @@
+/*
+---- 2022/12/20 ----
+Q: How to find out if given two strings are anagrams or not? 
+Hints: 
+First, lowercase all characters and delete all spaces and sort them. 
+Check if the length of both strings is the same. If not, they cannot be anagrams. 
+Check if the sorted arrays are equal. If they are equal, they are anagrams. 
+*/
+
+
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
