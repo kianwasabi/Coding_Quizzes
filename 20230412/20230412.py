@@ -14,6 +14,7 @@ def get_nested_value(nested_dict, keys, default_value="key not present"):
     :param default_value: The default value is returned if a key is not in the dictionary.
     :return: The value that corresponds to the key path in the dictionary or the default value if the key can not be found.
     """
+    
     current_dict = nested_dict
     for key in keys:
         if key not in current_dict:
@@ -66,9 +67,9 @@ def main():
 
     # test case 2: entire nested dict
     # Output: see nested_dict
-    # keys_list = [
-    #     []
-    #     ]
+    keys_list = [
+        []
+        ]
 
     my_list = []
     for keys in keys_list:
