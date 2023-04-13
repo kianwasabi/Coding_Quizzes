@@ -48,6 +48,8 @@ Use the following nested dict:
 </pre>
 </code>    
 Try using the following key list to access the values in the nested dict.
+<pre>
+<code>
     keys_list = [
         ['1','11'],
         ['1','13','131'],
@@ -56,20 +58,29 @@ Try using the following key list to access the values in the nested dict.
         ['3','31'],
         ['3','33'],
         ['4']
-        ]
+        ]          
 Output: Hello, this is a nested dict !
+</pre>
+</code>
 
 Furthermore, the following key lists can be used to test your code: 
 test case 1: first level key + key that is not present + key that is present
+<pre>
+<code>
     keys_list = [
         ['3'],
         ['1','11','111'],
         ['2']
         ]
 Output: {'31': 'nested', '32': 42, '33': 'dict'} key not present 42
-
-    test case 2: entire nested dict
+</pre>
+</code> 
+test case 2: whole nested dict
+<pre>
+<code>
     keys_list = [
         []
         ]
 Output: {'1': {'11': 'Hello,', '12': 42, '13': {'131': 'this', '132': {'1321': 'is', '1322': 42, '1323': 'a'}}}, '2': 42, '3': {'31': 'nested', '32': 42, '33': 'dict'}, '4': '!'} 
+</pre>
+</code>
