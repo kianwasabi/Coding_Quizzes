@@ -67,9 +67,9 @@ def main():
 
     # test case 2: entire nested dict
     # Output: see nested_dict
-    keys_list = [
-        []
-        ]
+    # keys_list = [
+    #     []
+    #     ]
 
     my_list = []
     for keys in keys_list:
